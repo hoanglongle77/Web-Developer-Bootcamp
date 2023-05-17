@@ -1,0 +1,80 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.content-wrapper {
+    margin: 10px 10 10px 10px;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+.movie-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212529;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+
+.movie-item a img {
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.movie-desciption {
+    width: 80%;
+}
+
+.movie-desciption a {
+    text-decoration: none;
+}
+
+.movie-title {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.category {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.desciption {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.desciption+p {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#full-movie {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#season-movie {
+    margin-top: 10px;
+    margin-left: 20px;
+}
