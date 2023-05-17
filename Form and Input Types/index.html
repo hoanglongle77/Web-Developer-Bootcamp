@@ -12,12 +12,22 @@
 <body>
     <div id="form-wrapper">
         <h1>Sign Up</h1>
-        <form id="sign-up-form">
-            <input type="text" name="" id="username" placeholder="Username">
-            <input type="password" name="" id="password" placeholder="Password">
-            <input type="password" name="" id="password" placeholder="Re-enter Password">
-            <input type="button" name="" id="sign-up" value="Sign Up">
+        <form id="sign-up-form" action="/tacos">
+            <label for="username">Enter a Username:</label>
+            <input type="text" name="username" id="username" placeholder="Username">
+            <label for="password">Enter a Password:</label>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <label for="re-enter">Enter a Password:</label>
+            <input type="password" name="re-enter" id="password" placeholder="Re-enter Password">
+            <!-- This button submits the form  -->
+            <button id="sign-up">Sign Up</button>
+            <!-- This button doesn't submit the form because of the "type" attribute -->
+            <button type="button" id="sign-up">Sign Up 2</button>
+            <!-- So does this one -->
+            <input type="submit" value="Sign Up 3">
         </form>
+        <!-- outside form no default behavior -->
+        <button>No Inside Form</button>
     </div>
 </body>
 
